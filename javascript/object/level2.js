@@ -37,7 +37,7 @@ if(car4.make&& car4.model&&car4.year){
 // { name: 'Alice', age: 20, grade: 'A' }
 const student5 = { name: 'Alice', age: 20, grade: 'A' };
 const {...clone} =student5
-alka ={...clone}
+result ={...clone}
 
 // Q6: Check if the 'address' property in the 'user' object is a string.
 // Expected output:
@@ -66,12 +66,15 @@ keys = Object.values(data8)
 // Expected output:
 // false
 const book9 = { title: 'JavaScript Basics', author: 'John Smith', year: 2020 };
-if(book9.title&&book9.aurthor&&book9.year==NULL){
+let value=Object.values(book9)
+for(let i=0;i<value.length;i++){
+if(value[i] === null ){
     Boolean(true)
   }
     else{
       Boolean(false)
     }
+}
 
 // Q10: Reverse the 'fullName' property value in the 'person' object.
 // Expected output:
