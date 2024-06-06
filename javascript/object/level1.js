@@ -56,12 +56,12 @@ console.log(person8.firstName+" "+person8.lastName);
 
 const cart9 = { item: 'Book', quantity: 2, total: 30 };
 let price=(cart9.total/cart9.quantity)
-let cart =cart9.quantity = cart9.quantity+1
-let total =cart9.total=cart9.quantity*price
-console.log(cart9)
+cart9.quantity = cart9.quantity+1
+cart9.total=cart9.quantity*price
+console.log(cart9);
 
 // Q10: Check if the 'price' property in the 'product' object is less than 100.
 // Expected output:
 // false
 const product10 = { name: 'Phone', price: 150 };
-Boolean( product10.price<=100)
+Boolean( product10.price<=100);

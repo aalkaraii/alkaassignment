@@ -17,9 +17,28 @@ function ageGroup(){
   }
   console.log(ageGroup());
 
+//Or
+
+  let a
+function ageGroup( a){
+    if(a>=0&&a<=12){
+  result='Child';
+    }else if(a>=13&&a<=19){
+  result='Teen';
+    }else if(a>=20&&a<=59){
+  result='Adult';
+  }else{
+  result='Senior';}
+    return result;
+  }
+  console.log(ageGroup(person.age));
+
+
 // Q2: Create a function that takes the 'inventory' object and returns the total number of items in stock.
 // Expected output for inventory2: 23
 const inventory2 = { apples: 10, bananas: 5, oranges: 8 };
+let text=Object.values(inventory2);
+console.log(text[0]+text[1]+text[2]);
 
 // Q3: Create a function that takes the 'students' object and returns an array of student names.
 // Expected output for students3: ['Alice', 'Bob', 'Emma']
