@@ -8,7 +8,7 @@ console.log(car1.model)
 // Expected output:
 // { size: 'large', material: 'cotton', color: 'red' }
 const shirt2 = { size: 'large', material: 'cotton' };
-let alka= shirt2.color="red";
+ shirt2.color="red";
 console.log(shirt2);
 
 // Q3: Calculate the total price by multiplying the 'quantity' and 'price' properties of the 'product' object.

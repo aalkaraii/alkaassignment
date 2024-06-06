@@ -43,7 +43,7 @@ result ={...clone}
 // Expected output:
 // true
 const user6 = { name: 'John', age: 30, address: '123 Main St' };
-if(typeof(user6.address)){
+if(typeof(user6.address)=='string'){
     Boolean(true)
     }
      else{
@@ -81,6 +81,4 @@ if(value[i] === null ){
 // 'doe John'
 const person10 = { fullName: 'John doe' };
 let text=Object.values(person10);
- let myArray = text[0].split(" ");
-let string = myArray.reverse();
-string.join(' ');
+ text[0].split(" ").reverse().join(' ');
