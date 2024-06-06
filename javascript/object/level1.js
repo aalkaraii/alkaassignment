@@ -53,7 +53,12 @@ console.log(person8.firstName+" "+person8.lastName);
 // Q9: Increment the value of the 'quantity' property in the 'cart' object by 1.
 // Expected output:
 // { item: 'Book', quantity: 3, total: 45 }
+
 const cart9 = { item: 'Book', quantity: 2, total: 30 };
+let price=(cart9.total/cart9.quantity)
+let cart =cart9.quantity = cart9.quantity+1
+let total =cart9.total=cart9.quantity*price
+console.log(cart9)
 
 // Q10: Check if the 'price' property in the 'product' object is less than 100.
 // Expected output:
