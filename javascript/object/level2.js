@@ -18,7 +18,9 @@ console.log(details3)
 // Expected output:
 // { name: 'Laptop', price: 800, quantity: 10 }
 const product3 = { name: 'Laptop', price: 800 };
+if(!product3.quantity){
 product3.quantity=10;
+}
 console.log(product3);
 
 // Q4: Check if all properties ('make', 'model', 'year') exist in the 'car' object.
@@ -47,6 +49,7 @@ if(typeof(user6.address)=='string'){
     Boolean(true)
     }
      else{
+      
     Boolean(false)
      }
 
